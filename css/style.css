@@ -1,0 +1,12 @@
+@import './global/reset.css';
+@import './global/componentes.css';
+@import './global/button.css';
+
+@import './home/header.css';
+@import './home/introducao.css';
+@import './home/article.css';
+@import './home/serviços.css';
+@import './home/gereciamento.css';
+@import './home/numeros.css';
+@import './home/TrabalheConosco.css';
+@import './home/footer.css';
