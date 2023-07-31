@@ -1,7 +1,9 @@
+/* Global */
 @import './global/reset.css';
 @import './global/componentes.css';
 @import './global/button.css';
 
+/* Home */
 @import './home/header.css';
 @import './home/introducao.css';
 @import './home/article.css';
@@ -10,3 +12,4 @@
 @import './home/numeros.css';
 @import './home/TrabalheConosco.css';
 @import './home/footer.css';
+@import './home/modal.css';

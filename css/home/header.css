@@ -53,6 +53,10 @@
     left: 0;
 }
 
+.header-menu li a.ativado::after {
+    width: 100%;
+}
+
 .logo {
     font-family: 'Roboto Slab', serif;
     font-size: 25px;

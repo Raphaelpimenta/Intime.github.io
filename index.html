@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intime</title>
+    <link rel="icon" href="./img/kanban.png" type="image/svg+xml">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
@@ -15,14 +16,14 @@
             <nav class="js-menu">
                 <div>
                     <button id="btn-mobile"><span id="hamburguer"></span></button>
-                    <ul class="header-menu">
+                    <ul class="header-menu ativaLink">
                         <li><a href="#inicio">Início</a></li>
                         <li><a href="#serviços">Serviços</a></li>
                         <li><a href="#projetos">Projetos</a></li>
                         <li><a href="#sobre">Sobre Nós</a></li>
                     </ul>
                 </div>
-                <button class="btn-padrao">
+                <button data-modal="abrir" class="btn-padrao">
                     <span>Login</span>
                 </button>
             </nav>
@@ -211,6 +212,19 @@
             <p>© 2023 Intime Mídia. Alguns direitos reservados.</p>
         </div>
     </footer>
+
+    <section class="modal-container" data-modal="container">
+        <div class="modal">
+            <button data-modal="fechar" class="fechar">X</button>
+            <form action="">
+                <label for="email">Email</label>
+                <input type="text" for="email" id="emailModal">
+                <label for="senha">Senha</label>
+                <input type="password" for="senha" id="senha">
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </section>
     
     <script type="module" src="./js/script.js"></script>
 </body>
