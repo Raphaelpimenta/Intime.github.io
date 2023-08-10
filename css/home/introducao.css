@@ -2,6 +2,7 @@
     object-fit: cover;
     background: url('../../img/introducao-bg.svg');
 }
+
 .introducao {
     margin-top: 5rem;
     text-align: center;
